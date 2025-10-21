@@ -1,6 +1,6 @@
 import java.awt.*;
 
-public abstract class Shape {
+public abstract class Shape implements Drawable {
     protected Point position;
     protected Color colour;
 
@@ -8,6 +8,4 @@ public abstract class Shape {
         this.position = position;
         this.colour = colour;
     }
-
-    public abstract void Draw(Graphics graphic);
 }

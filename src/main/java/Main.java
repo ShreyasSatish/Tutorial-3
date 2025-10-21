@@ -7,7 +7,8 @@ public class Main {
         Frame frame = new Frame();
         Drawing drawing = new Drawing(40, 100, 100,
                 new Point(100, 100), new Point(400, 400),
-                Color.pink, Color.orange);
+                Color.pink, Color.orange,
+                20, new Point(200, 200), Color.blue);
 
         // Adding the Drawing object to the Frame object
         // (a Frame object can have a Canvas object added to it,

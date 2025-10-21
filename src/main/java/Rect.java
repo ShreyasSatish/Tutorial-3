@@ -10,7 +10,7 @@ public class Rect extends Shape{
         this.height = height;
     }
 
-    public void Draw(Graphics graphic) {
+    public void draw(Graphics graphic) {
         graphic.setColor(colour);
         graphic.fillRect(position.x, position.y, width, height);
     }

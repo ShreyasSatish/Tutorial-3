@@ -9,7 +9,7 @@ public class Circle extends Shape {
     }
 
     @Override
-    public void Draw(Graphics graphic) {
+    public void draw(Graphics graphic) {
         graphic.setColor(this.colour);
         graphic.fillOval(position.x, position.y, radius * 2, radius * 2);
     }
