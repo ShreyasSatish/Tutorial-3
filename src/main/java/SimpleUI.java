@@ -10,6 +10,7 @@ public class SimpleUI {
     public static void main(String[] args) {
         JFrame frame = new JFrame(gc); // Create a new JFrame
         frame.setSize(500,300);
+        frame.getContentPane().add(new ButtonPanel("Button Pressed"));
         frame.setVisible(true);
 
         // Closes the program when the frame is closed
